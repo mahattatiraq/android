@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تحميل محطة العراق — أندرويد</title>
+<style>
+  :root {
+    --bg: #14181B;
+    --surface: #1E2429;
+    --surface2: #262E34;
+    --line: #333C42;
+    --amber: #F2A93B;
+    --teal: #1B6E6E;
+    --teal-light: #2E8F8F;
+    --text: #F5F1E8;
+    --text-dim: #9AA5AA;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Tahoma", "Segoe UI", Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+  }
+  .icon-wrap {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+    border-radius: 28px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+  }
+  h1 {
+    font-size: 23px;
+    margin: 0 0 6px;
+    font-weight: 800;
+  }
+  .subtitle {
+    color: var(--text-dim);
+    font-size: 13.5px;
+    margin: 0 0 34px;
+    line-height: 1.8;
+  }
+  .download-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    background: var(--amber);
+    color: #1a1a1a;
+    font-weight: 800;
+    font-size: 15.5px;
+    padding: 17px 24px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+  }
+  .version-tag {
+    font-size: 11.5px;
+    color: var(--text-dim);
+    margin-bottom: 28px;
+  }
+  .note {
+    font-size: 11.5px;
+    color: var(--text-dim);
+    line-height: 1.9;
+    background: var(--surface2);
+    border-radius: 12px;
+    padding: 15px 16px;
+    text-align: right;
+  }
+  .note b { color: var(--text); }
+  .steps {
+    margin: 8px 0 0;
+    padding-inline-start: 18px;
+  }
+  .steps li { margin-bottom: 4px; }
+  footer {
+    margin-top: 26px;
+    font-size: 11px;
+    color: var(--text-dim);
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <div class="icon-wrap">⛽</div>
+  <h1>محطة العراق</h1>
+  <p class="subtitle">اعرف أقرب محطة وقود مفتوحة وأنواع الوقود المتوفرة فيها مباشرة</p>
+
+  <a class="download-btn" href="mahattat-iraq.apk" download>
+    ⬇ تحميل التطبيق (APK)
+  </a>
+  <div class="version-tag">لأجهزة أندرويد فقط — خارج متجر Google Play مؤقتاً</div>
+
+  <div class="note">
+    <b>خطوات التثبيت:</b>
+    <ol class="steps">
+      <li>اضغط زر التحميل أعلاه، انتظر تنزيل الملف</li>
+      <li>افتح الملف بعد التنزيل</li>
+      <li>لو ظهرت رسالة "مصادر غير معروفة"، اضغط "السماح" — هذا إجراء أمان عادي من أندرويد لأي تطبيق خارج المتجر</li>
+      <li>اضغط "تثبيت" وانتظر لحظات</li>
+    </ol>
+  </div>
+
+  <footer>محطة العراق © 2026</footer>
+</div>
+
+</body>
+</html>
